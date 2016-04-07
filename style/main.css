@@ -2,6 +2,20 @@ h1{
 
 }
 
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-right:1.5em;
+}
+
 h2 {
   font-family: 'Oswald',sans-serif;
+}
+
+.box {
+  display: flex;
+  margin-right: auto;
 }
