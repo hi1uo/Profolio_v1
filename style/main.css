@@ -1,5 +1,21 @@
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1200px;
+  }
+}
+.box1 {
+  text-align: right;
+}
+.socialmedia {
+  text-align: right;
+  background-color: orange;
+  margin: 0;
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 55px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
@@ -8,14 +24,20 @@ h1 {
   font-family: 'FontAwesome', sans-serif;
   font-size: 18px;
   color: black;
-  margin-right:1.5em;
+  margin-left:1em;
 }
 
 h2 {
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
+.aboutme {
+  background-color: green;
+}
 .box {
   display: flex;
-  margin-right: auto;
+  margin-right: 5px;
+}
+img {
+  max-width: 100%;
 }
