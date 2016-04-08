@@ -1,17 +1,11 @@
-var gulp = require('gulp'),
-    less = require('gulp-less'),
-    livereload = require('gulp-livereload');
-
-gulp.task('less', function() {
-  gulp.src('less/*.less')
-    .pipe(less())
-    .pipe(gulp.dest('css'))
-    .pipe(livereload());
+var gulp        = require('gulp');
+var browserSync = require('browser-sync').create();
+var reload      = browserSync.reload;
+gulp.task('browserSync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+    gulp.watch("./style/*.css").on('change',reload);
 });
-
-gulp.task('watch', function() {
-  livereload.listen();
-  gulp.watch('less/*.less', ['less']);
-});
-
-gulp.task('default',['watch']);
