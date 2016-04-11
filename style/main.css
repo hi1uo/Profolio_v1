@@ -59,9 +59,10 @@ img {
 .aboutme {
   font-size: 34px;
   background-color: orange;
+  margin: auto;
 }
 
-.hithere {
+.content {
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
 }
