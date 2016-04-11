@@ -5,58 +5,109 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>jerry's portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" typpe="text/css" href="style/main.css">
-	<link href='https://fonts.googleapis.com/css?family=Abel|Oswald|Poiret+One|Rajdhani' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Abel%7CRajdhani%7COpen+Sans%7CFjalla+One'
+	rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
 </head>
+
 <body>
 	<div class="container">
+		<div class="row header">
+				<div class="col-md-4">
+					<div class="logo">
+						<img class="logopic" src="img/Self.jpg" alt="logo">
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="nametitle">
+						<h1>Jerry Luo</h1>
+						<h2>FRONT-END DEVELOPER</h2>
+					</div>
+				</div>
+		</div>
+		<hr class="line1">
 		<div class="row">
-				<div class="box1 col-xs-12, col-sm-12, col-md-12, col-lg-12">
-				<h1>Jerry Luo</h1>
-				<h2>Font-End NINJA</h2>
+			<div class="col-md-8">
+				<picture>
+					<source srcset="img/tree_icon-lg.jpg" media="(min-width: 641px)"/>
+					<source srcset="img/tree_icon-md.jpg" media="(min-width: 321px)"/>
+					<img src="img/tree_icon-sm.jpg" alt="tree_icon"/>
+				</picture>
+			</div>
+
+			<div class="col-md-4">
+				<h3 class="aboutme">About Me *</h3>
+				<p class="hithere">Hi there!<br>
+				Welcome to my website!<br>
+				<br>Before I do this, I was an electrical engineer, but my real interest is
+				<span style='color:#85adad'>WEB design</span>.<br>
+				<br>I am very excited to finish my FIRST project,
+				I guess I can call myself <span style='color:green'>Front-End Developer</span> from now on!<br>
+				<br>My other interests reside in photography and traveling. I'd like to
+				see the world, and show you from <span style='color:#1a75ff'>My vision</span>.
+			</p>
+			</div>
+		</div>
+		<h2 class="featuretitle">Feature Work</h2>
+		<div class="row feature">
+			<div class="col-md-4">
+				<picture>
+					<source srcset="img/edu-illustrations-lg.png" media="(min-width: 641px)"/>
+					<source srcset="img/edu-illustrations-md.png" media="(min-width: 321px)"/>
+					<img src="img/edu-illustrations-sm.png" alt="resume"/>
+				</picture>
+				<div class="center">
+					<h3 class="sectiontitle">My Resume</h3>
+					<p>Looking for a web developer?
+						<br>Check out my latest resume!
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<picture>
+					<img class="newproject" src="img/work-lg.gif" alt="work"/>
+				</picture>
+				<div class="center">
+					<h3 class="resumetitle">New Projects</h3>
+						<p >Learn more about upcoming projects.
+							<br><a href="www.github.com">Arcade Game</a> |
+							<a href="www.github.com">Website Optimazation</a>
+							<br><a href="www.github.com">Neighborhood Map</a> |
+							<a href="www.github.com">Health Tracker</a> |
+							<a href="www.github.com">Feed Reader Testing</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<picture>
+					<source srcset="img/instagram-lg.png" media="(min-width: 641px)"/>
+					<source srcset="img/instagram-md.png" media="(min-width: 321px)"/>
+					<img src="img/instagram-sm.png" alt="instagram"/>
+				</picture>
+				<div class="center">
+					<h3 class="resume">Photography</h3>
+					<p>Explore the world from "my vision" <br> Check out my photography work!</p>
+				</div>
 			</div>
 		</div>
 
-		<div class="socialmedia">
-			<footer>
-				<a href="www.twitter.com" class="fontawesome-twitter"></a>
-				<a href="facebook.com" class="fontawesome-facebook"></a>
-				<a href="linkedin.com" class="fontawesome-linkedin"></a>
-				<a href="google.com" class="fontawesome-github"></a>
-				<a href="gmail.com" class="fontawesome-envelope"></a>
-			</footer>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-8, col-sm-8, col-md-8, col-lg-8">
-				<img src="img/building.jpg" alt="buidling">
-			</div>
-			<div class="aboutme col-xs-4, col-sm-4, col-md-4, col-lg-4">
-				<p>About me</p>
-				<p>My name is </p>
+		<div class="row author">
+			<div class="col-md-12">
+				<hr>
+					<footer>
+						<a href="www.twitter.com" class="fontawesome-twitter"></a>
+						<a href="facebook.com" class="fontawesome-facebook"></a>
+						<a href="linkedin.com" class="fontawesome-linkedin"></a>
+						<a href="github.com" class="fontawesome-github"></a>
+						<a href="gmail.com" class="fontawesome-envelope"></a>
+					</footer>
+				<p class="white">Created by Guojing Luo <br>@2016</p>
 			</div>
 		</div>
-
-			<h2>Feature work</h2>
-
-		<div class="row box">
-			<div class="col-xs-4, col-sm-4, col-md-4, col-lg-4">
-				<img src="img/project.png" alt="projectpic">
-				<p>Learn more about upcoming project</p>
-			</div>
-			<div class="col-xs-4, col-sm-4, col-md-4, col-lg-4">
-				<img src="img/travel.jpg" alt="travelpic">
-					<p>This is a test of coloumn 2</p>
-			</div>
-			<div class="col-xs-4, col-sm-4, col-md-4, col-lg-4">
-				<img src="img/flower.jpg" alt="flowerpic">
-					<p>This is a test of coloumn 3</p>
-			</div>
-		</div>
-
-
-
 	</div>
 </body>
 </html>
