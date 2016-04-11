@@ -24,9 +24,6 @@ h1 {
 h2 {
   font-family: 'Abel', sans-serif;
 }
-p {
-  font-size: 20px;
-}
 
 .line1 {
   background-color: #004d4d;
@@ -49,7 +46,7 @@ p {
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: black;
   margin-right:1em;
 }
