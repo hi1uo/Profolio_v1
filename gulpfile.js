@@ -8,9 +8,10 @@ var rename      = require('gulp-rename');
 var responsive  = require('gulp-responsive-images');
 
 gulp.task('minicss',function(){
-  gulp.src('style/*.css')
+  gulp.src('style/main.css')
   .pipe(minifyCSS())
-  .pipe(gulp.dest('./style/'))
+  .pipe(rename(function(path){path.basename += "-min";}))
+  .pipe(gulp.dest('style/'))
 })
 
 gulp.task('browserSync', function() {
@@ -24,7 +25,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('imagemin', function(){
  // find the image sources
-  gulp.src('imgsrc/*.*')
+  gulp.src('img/*.*')
  //minify image
   .pipe(imagemin({
     progressive:true
