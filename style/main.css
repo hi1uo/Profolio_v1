@@ -19,16 +19,13 @@ body {
 
 h1 {
   font-size: 55px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 h2 {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
+  color: grey;
 }
 
-.line1 {
-  background-color: #004d4d;
-  height: 3px;
-}
 .nametitle {
   text-align: right;
 }
@@ -44,6 +41,12 @@ h2 {
 }
 
 @media screen and (max-width:990px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 28px;
+  }
   .logo{
     display:block;
     margin:0 auto;
@@ -51,6 +54,59 @@ h2 {
   .nametitle {
     text-align: center;
   }
+  .cover {
+    margin-bottom: 20px;
+  }
+  .position {
+    text-align: center;
+  }
+}
+
+.line {
+  background-color: #004d4d;
+  height: 1px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.aboutme {
+  font-size: 34px;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.hithere {
+  color: #8c8c8c;
+}
+
+@media screen and (max-width: 1199px) {
+  .aboutme{
+    font-size: 28px;
+  }
+  .content {
+    font-size: 14px;
+  }
+}
+
+.featuretitle {
+  font-size: 36px;
+  margin-top: 1em;
+  font-family: "Fjalla One", sans-serif;
+  color: black;
+}
+
+.author {
+  padding-top: 10px;
+  background-color: #004d4d;
+  min-height: 60px;
 }
 
 /* fontawesome */
@@ -61,47 +117,8 @@ h2 {
   margin-right:1em;
 }
 
-img {
-  max-width: 100%;
-}
-
-
-.aboutme {
-  font-size: 34px;
-  background-color: orange;
-  margin: auto;
-}
-
-.content {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-}
-
-@media screen and (max-width: 1199px) {
-  .aboutme{
-    font-size: 28px;
-  }
-  .content {
-    font-size: 16px;
-  }
-
-}
-
-.featuretitle {
-  font-size: 36px;
-  margin-top: 1em;
-  font-family: 'Fjalla One', sans-serif;
-  color: black;
-}
-
-.line2 {
-  background-color: #004d4d;
-  height: 1px;
-}
-.author {
-  padding-top: 10px;
-  background-color: #004d4d;
-  min-height: 60px;
+.position {
+  padding-top: 20px;
 }
 
 .center {

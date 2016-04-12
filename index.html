@@ -13,7 +13,8 @@
 
 <body>
 	<div class="container">
-		<div class="row header">
+
+		<header class="row">
 				<div class="col-md-4">
 					<div class="logo">
 						<img class="logopic" src="img/Self.jpg" alt="logo">
@@ -26,35 +27,42 @@
 						<h2>FRONT-END DEVELOPER</h2>
 					</div>
 				</div>
-		</div>
-		<hr class="line1">
-		<div class="row">
-			<div class="col-md-8">
-				<picture>
-					<source srcset="img/tree_icon-lg.jpg" media="(min-width: 641px)"/>
-					<source srcset="img/tree_icon-md.jpg" media="(min-width: 321px)"/>
-					<img src="img/tree_icon-sm.jpg" alt="tree_icon"/>
+		</header>
+
+		<hr class="line">
+
+		<section class="row">
+			<div class="col-md-8 cover">
+				<picture >
+					<source srcset="img/building-lg.jpg" media="(min-width: 641px)"/>
+					<source srcset="img/building-md.jpg" media="(min-width: 321px)"/>
+					<img src="img/building-sm.jpg" alt="tree_icon"/>
 				</picture>
 			</div>
 
 			<div class="col-md-4">
-				<h3 class="aboutme">About Me *</h3>
-				<br>
-				<p class="content">Hi there!<br>
-				Welcome to <span style='color:green'>
-					My Website</span>!<br>
+				<h3 class="aboutme">About Me <span style='color:#990000'>/*</span></h3>
+				<p class="content hithere">
+					<br>Hi there!<br>
+				Welcome to visit<span style='color:green'>
+					 My Website</span>!<br>
 				<br>As an electrical engineer, I find out I am more interested in
 				<span style='color:#85adad'>WEB Development</span>. So I am learning hard everyday after work.<br>
-				<br>Today, It's very exciting to lanch my portfolio.
+				<br>Today, I am very excited to lanch my first portfolio.
 				From now on, I'm proudly to be called as a <span style='color:orange'>
-					Front-End Developer</span>!<br>
+					Front-End Developer</span>.<br>
 				<br>My other interests reside in photography and traveling. I'd like to travel
 				around the world, and show you from <span style='color:#1a75ff'>My vision</span> :)
+				<br>
 			</p>
 			</div>
-		</div>
+		</section>
+
+		<section>
 		<h2 class="featuretitle">Feature Work</h2>
-		<div class="row feature">
+	</section>
+
+		<section class="row">
 			<div class="col-md-4">
 				<picture>
 					<source srcset="img/edu-illustrations-lg.png" media="(min-width: 641px)"/>
@@ -64,7 +72,8 @@
 				<div class="center">
 					<h3>My Resume</h3>
 					<p class="content">Looking for a web developer?
-						<br>Check out my latest resume!
+						<br>Check out my latest <a href="https://www.visualcv.com/guojing-luo?access=2S9JxZm107L">
+							resume</a>!
 					</p>
 				</div>
 			</div>
@@ -77,11 +86,11 @@
 					<h3>New Projects</h3>
 						<p class="content">More projects coming soon..</p>
 						<p>
-							<a href="www.github.com">Arcade Game</a> |
-							<a href="www.github.com">Website Optimazation</a>
-							<br><a href="www.github.com">Neighborhood Map</a> |
-							<a href="www.github.com">Health Tracker</a> |
-							<a href="www.github.com">Feed Reader Testing</a>
+							<a onclick="alert('Coming soon')">Arcade Game</a> |
+							<a onclick="alert('Coming soon')">Website Optimazation</a> |
+							<br><a onclick="alert('Coming soon')">Neighborhood Map</a> |
+							<a onclick="alert('Coming soon')">Health Tracker</a> |
+							<br><a onclick="alert('Coming soon')">Feed Reader Testing</a>
 						</p>
 				</div>
 			</div>
@@ -97,20 +106,29 @@
 					<p class="content">Stories, places and good moments.<br> Check out my photography work.</p>
 				</div>
 			</div>
+		</section>
+
+		<hr class="line">
+
+		<div class="author position">
+			<div class="col-md-4">
+				<footer>
+					<a href="https://www.facebook.com/jerry.luo.148" class="fontawesome-facebook"></a>
+					<a href="https://twitter.com/JerryLuo1989" class="fontawesome-twitter"></a>
+					<a href="https://www.linkedin.com/in/jerryluo1989" class="fontawesome-linkedin"></a>
+					<a href="https://github.com/jerryluo1989" class="fontawesome-github-alt"></a>
+					<a href="https://www.instagram.com/hiluo1989" class="fontawesome-camera"></a>
+				</footer>
+			</div>
+			<div class="col-md-4">
+				<p class="white center">
+					Email: <a href="mailto:jerryluo1989@gmail.com">jerryluo1989@gmail.com</a>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<p class="white center">@2016 Created by Jerry Luo</p>
+			</div>
 		</div>
-
-			<hr class="line2">
-
-		<footer class="row author col-md-12">
-					<footer>
-						<a href="https://www.facebook.com/jerry.luo.148" class="fontawesome-facebook"></a>
-						<a href="https://twitter.com/JerryLuo1989" class="fontawesome-twitter"></a>
-						<a href="https://www.linkedin.com/in/jerryluo1989" class="fontawesome-linkedin"></a>
-						<a href="https://github.com/jerryluo1989" class="fontawesome-github"></a>
-						<a href="https://www.instagram.com/jerryluo1989/" class="fontawesome-camera"></a>
-					</footer>
-				<p class="white">@2016 Created by Jerry Luo</p>
-		</footer>
 	</div>
 </body>
 </html>

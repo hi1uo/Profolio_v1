@@ -45,9 +45,9 @@ gulp.task('imgresize', function(){
 });
 
 gulp.task('responsive', function(){
-  gulp.src('imgsrc/*.*')
+  gulp.src('img/*.*')
     .pipe(responsive({
-      'tree_icon.*':[
+      'building.*':[
         {
           width:320,
           suffix: '-sm'
