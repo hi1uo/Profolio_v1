@@ -43,6 +43,16 @@ h2 {
   border-radius: 50%;
 }
 
+@media screen and (max-width:990px) {
+  .logo{
+    display:block;
+    margin:0 auto;
+  }
+  .nametitle {
+    text-align: center;
+  }
+}
+
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -84,10 +94,14 @@ img {
   color: black;
 }
 
-.author {
+.line2 {
   background-color: #004d4d;
-  margin: auto;
-  min-height: 100px;
+  height: 1px;
+}
+.author {
+  padding-top: 10px;
+  background-color: #004d4d;
+  min-height: 60px;
 }
 
 .center {
