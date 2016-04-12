@@ -111,7 +111,7 @@ img {
 
 /* fontawesome */
 [class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
+  font-family: "FontAwesome", sans-serif;
   font-size: 20px;
   color: black;
   margin-right:1.8em;
