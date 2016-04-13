@@ -40,7 +40,7 @@ h2 {
   border-radius: 50%;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:991px) {
   h1 {
     font-size: 45px;
   }
@@ -87,7 +87,7 @@ img {
   color: #8c8c8c;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) and (min-width:992px) {
   .aboutme{
     font-size: 28px;
   }
@@ -112,9 +112,9 @@ img {
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: "FontAwesome", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   color: black;
-  margin-right:1.8em;
+  margin-right:1.5em;
 }
 
 .position {
