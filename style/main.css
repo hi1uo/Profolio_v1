@@ -4,7 +4,8 @@
 */
 body {
     background-color: #efeff5;
-}
+  }
+
 .container {
   flex-wrap: wrap;
 }
@@ -21,6 +22,7 @@ h1 {
   font-size: 55px;
   font-family: "Rajdhani", sans-serif;
 }
+
 h2 {
   font-family: "Abel", sans-serif;
   color: grey;
@@ -29,11 +31,13 @@ h2 {
 .nametitle {
   text-align: right;
 }
+
 .logo {
   margin-top: 20px;
   width: 100px;
   height: 100px;
 }
+
 .logopic {
   display: block;
   border: 2px solid white;
@@ -85,6 +89,31 @@ img {
 
 .hithere {
   color: #8c8c8c;
+}
+
+/*Colors of the paragraph*/
+.990000 {
+  color:#990000;
+}
+
+.green {
+  color: green;
+}
+
+.85adad {
+  color: #85adad;
+}
+
+.bf8040 {
+  color: #bf8040;
+}
+
+.orange {
+  color: orange;
+}
+
+.1a75ff {
+  color: #1a75ff;
 }
 
 @media screen and (max-width: 1199px) and (min-width:992px) {
